@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../js/script.js"></script>
+  </head>
+  
+  <body>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <div class="series">CATEGORÍA SERIES</div>
+    
+    <div id="pregunta1s" class="seriesVista">
+
+      <div class="series">¿De qué portada es la serie?</div>
+
+      <img src="../imgs/casa_de_papel.jpg" height="300" width="450">
+      
+      <div type="submit" class="btn" onclick="alertaIncorrecta()" id="btn1">THE WALKING DEAD</div>
+
+      <div class="btn" onclick="alertaIncorrecta()" id="btn2">BIG BANG THEORY</div>
+
+      <div class="btn" onclick="alertaIncorrecta()" id="btn3">GOOD DOCTOR</div>
+
+      <div class="btn" onclick="incrementClick()" id="btn4">LA CASA DE PAPEL</div>
+    </div>
+    
+    <div id="pregunta2s">
+      <div class="series">¿De qué portada es la serie?</div>
+
+        <img src="../imgs/stranger_things.jpg" height="300" width="450">
+        
+        <div class="btn" onclick="alertaIncorrecta1()"
+        id="btn1"">BREAKING BAD</div>
+
+        <div class="btn" onclick="alertaIncorrecta1()" id="btn2">FULLER HOUSE</div>
+
+        <div class="btn" onclick="incrementClick1()" id="btn3">STRANGER THINGS</div>
+
+        <div class="btn" onclick="alertaIncorrecta1()" id="btn4"> GREYS ANATOMY</div>
+        <p>----------------------------------</p>
+    </div>
+
+    <div id="pregunta3s">
+      <div class="series">¿De qué portada es la serie?</div>
+      <img src="../imgs/the_walking.jpg" height="300" width="450">
+
+      <div class="btn" onclick="alertaIncorrecta2()" id="btn1">LOST</div>
+
+      <div class="btn" onclick="incrementClick2()" id="btn2">THE WALKING DEAD</div>
+
+      <div class="btn" onclick="alertaIncorrecta2()" id="btn3">FLASH</div>
+      
+      <div class="btn" onclick="alertaIncorrecta2()" id="btn4">SWEET HOME</div>
+    </div>
+
+    <div id="resultadoSeries">
+      <div class="series">PUNTAJE</div>
+
+      <div>
+      <center><h3 id="counter-label">0</h3></center>
+      </div>
+
+      <a class="btn" href="../index.html" id="btn4">SALIR</a>
+
+      <a class="btn" href="menu.html" id="btn4">VOLVER A JUGAR</a>
+
+    </div>
+
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/script.js"></script>
+    <title>TRIVIA LAB</title>
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+
+  <body>
+    <div class="getgreeting">
+
+      <h1>BIENVENIDA A TRIVIA</h1>
+      <!--primer formulario de BIENVENIDA, ingresa tu nombre-->
+      <form id="form1" method="post">
+      
+        <label for="name">Ingresa tu nombre:</label>
+        <input type="text" placeholder="Enter your name" name="nombre" id="nombre">
+
+        <!-- button JUGAR-->
+        <input onclick="obtenerdatos()" type="button" value="JUGAR">
+
+      </form>
+      <!--segundo formulario MUESTRA EL NOMBRE-->
+
+      <form id="showname" action="html/menu.html">
+        <td>HOLA!:</td>
+        <input type="text" name="mostrarnombre" id="mostrarnombre">
+        <td>¿ACEPTAS EL RETO?:</td>
+        <input type="submit" value="ACEPTO" >
+      </form>
+
+    </div>
+  </body>
+
+</html>

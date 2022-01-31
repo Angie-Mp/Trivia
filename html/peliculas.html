@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../js/script.js"></script>
+  </head>
+
+  <body>
+    <link rel="stylesheet" href="../css/style.css">
+
+	  <div class="series">CATEGORÍA PELICULAS</div>
+
+	  <div id="pregunta1s" class="seriesVista">
+      
+      <div class="series">¿De qué portada es la película?</div>
+
+      <img src="../imgs/moana.jpg" height="300" width="450">
+      
+      <div type="submit" class="btn" onclick="alertaIncorrecta()" id="btn1">LA CENICIENTA</div>
+
+      <div class="btn" onclick="alertaIncorrecta()" id="btn2">CRUELLA</div>
+
+      <div class="btn" onclick="incrementClick()" id="btn3">MOANA</div>
+
+      <div class="btn" onclick="alertaIncorrecta()" id="btn4">EL REY LEON</div>
+    </div>
+    
+    <div id="pregunta2s">
+      <div class="series">¿De qué portada es la película?</div>
+
+        <img src="../imgs/avengers.jpg" height="300" width="450">
+        
+        <div class="btn" onclick="incrementClick1()"
+        id="btn1"">THE AVENGERS: END GAME</div>
+
+        <div class="btn" onclick="alertaIncorrecta1()" id="btn2">BATMAN</div>
+
+        <div class="btn" onclick="alertaIncorrecta1()" id="btn3">LOS CUATRO FANTASTICOS</div>
+
+        <div class="btn" onclick="alertaIncorrecta1()" id="btn4"> THE AVENGERS</div>
+       
+    </div>
+
+    <div id="pregunta3s">
+      <div class="series">¿De qué portada es la película?</div>
+      <img src="../imgs/harry_potter.jpg" height="300" width="450">
+
+      <div class="btn" onclick="alertaIncorrecta2()" id="btn1">RED NOTICE</div>
+
+      <div class="btn" onclick="alertaIncorrecta2()" id="btn2">ANIMALES FANTASTICOS</div>
+
+      <div class="btn" onclick="incrementClick2()" id="btn3">HARRY POTTER</div>
+      
+      <div class="btn" onclick="alertaIncorrecta2()" id="btn4">EL CODIGO DAVINCI</div>
+    </div>
+
+    <div id="resultadoSeries">
+      
+      <div class="series">PUNTAJE</div>
+
+      <div>
+      <center><h3 id="counter-label">0</h3></center>
+      </div>
+
+      <a class="btn" href="../index.html" id="btn4">SALIR</a>
+
+      <a class="btn" href="menu.html" id="btn4">VOLVER A JUGAR</a>
+      
+    </div>
+    </div>
+  </body>
+</html>
